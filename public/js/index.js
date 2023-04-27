@@ -184,10 +184,10 @@ fetch('/api/v1/posts')
           span1.textContent = post.username;
           div4.appendChild(span1);
 
-          const span2 = document.createElement('span');
-          span2.classList.add('text-gray-darker', 'fs-6');
-          span2.textContent = 'Job title and position';
-          div4.appendChild(span2);
+//           const span2 = document.createElement('span');
+//           span2.classList.add('text-gray-darker', 'fs-6');
+//           span2.textContent = 'Job title and position';
+//           div4.appendChild(span2);
 
           div3.appendChild(div4);
           div2.appendChild(div3);
@@ -221,16 +221,16 @@ fetch('/api/v1/posts')
           const div6 = document.createElement('div');
           div6.classList.add('post-body', 'pt-2', 'ps-3');
 
-          const div7 = document.createElement('div');
-          div7.classList.add('post-title', 'fw-bold');
+//           const div7 = document.createElement('div');
+//           div7.classList.add('post-title', 'fw-bold');
 
-          const anchor = document.createElement('a');
-          anchor.classList.add('text-decoration-none', 'text-black');
-          anchor.href = '#';
-          anchor.textContent = 'We put the title of posts here';
+//           const anchor = document.createElement('a');
+//           anchor.classList.add('text-decoration-none', 'text-black');
+//           anchor.href = '#';
+//           anchor.textContent = 'We put the title of posts here';
 
-          div7.appendChild(anchor);
-          div6.appendChild(div7);
+//           div7.appendChild(anchor);
+//           div6.appendChild(div7);
 
           const div8 = document.createElement('div');
           div8.classList.add('post-text', 'pt-1');
